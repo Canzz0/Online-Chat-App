@@ -9,23 +9,23 @@ const Room = ({ username, room, setUsername, setRoom, setChatScreen, socket }) =
 
   return (
     <div className='room-container'>
-      <h1 className='room-title'>WELCOME TO CHAT</h1>
+      <h1 className='room-title'>Online Chat App</h1>
       <input
         value={username}
         onChange={(e) => setUsername(e.target.value)}
         className='room-input'
         type='text'
-        placeholder='UserName'
+        placeholder='Kullanıcı Adı'
       />
       <input
         value={room}
         onChange={(e) => setRoom(e.target.value)}
         className='room-input'
         type='text'
-        placeholder='Room'
+        placeholder='Oda Numarası'
       />
       <button onClick={sendRoom} className='room-button'>
-        CHAT!!
+        Giriş Yap
       </button>
     </div>
   );

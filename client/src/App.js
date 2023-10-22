@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import io from 'socket.io-client';
-import Chat from './Components/Chat';
-import Room from './Components/Room';
+import Chat from './Components/Chat/Chat';
+import Room from './Components/Room/Room';
 
 
 const socket = io.connect('http://localhost:5000');

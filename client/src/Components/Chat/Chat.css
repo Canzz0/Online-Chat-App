@@ -62,24 +62,26 @@
 
 .chat-input {
   display: flex;
-  padding: 10px;
+  padding: 25px;
   border-top: 1px solid #ccc;
   align-items: center;
   background-color: #fff;
 }
 
 .message-input {
+  font-size: larger;
   flex: 1;
-  padding: 5px;
+  padding: 25px;
   border: 1px solid #ccc;
   border-radius: 5px;
   margin-right: 10px;
 }
 
 .send-button {
+  font-size: larger;
   background-color: #2579d3;
   color: #fff;
-  padding: 5px 10px;
+  padding: 25px 35px;
   border: none;
   border-radius: 5px;
   cursor: pointer;

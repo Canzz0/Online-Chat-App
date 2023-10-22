@@ -40,7 +40,7 @@ const Chat = ({ socket, username, room }) => {
           onChange={(e) => setMessage(e.target.value)}
           className="message-input"
           type="text"
-          placeholder="Type a message"
+          placeholder="Mesajınızı Yazınız"
         />
         <button onClick={sendMessage} className="send-button">
           Gönder
